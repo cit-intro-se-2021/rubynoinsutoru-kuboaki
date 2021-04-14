@@ -159,7 +159,7 @@ Processing triggers for libc-bin (2.27-3ubuntu1.2) ...
 [[rbenv_02]]
 === rbenvを使って追加する方法
 
-Rubyの複数のバージョンを、プロジェクトや作業用のディレクトリごとに切り替えて使いたいときは、 ((rbenv )) footnote:[`https://github.com/rbenv/rbenv`] を使います。
+Rubyの複数のバージョンを、プロジェクトや作業用のディレクトリごとに切り替えて使いたいときは、 ((rbenv )) （ `https://github.com/rbenv/rbenv` ）を使います。
 
 まず、 `rbenv` をインストールします（ <<rbenv_install_ruby_11>> ）。
 
@@ -201,7 +201,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 ----
 --
 
-編集が済んだらターミナルを開き直します。 footnote:[ わかる人は source コマンドを使ってもかまいません。]
+編集が済んだらターミナルを開き直します。 わかる人は source コマンドを使ってもかまいません。
 
 もし、まだGitをインストールしていない場合には、インストールしてから実行します（ <<rbenv_install_ruby_13>> ）。
 
@@ -354,6 +354,5 @@ ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-linux]
 
 
 これで、Rubyが使えるようになりました。
-「 <<make_simple_script_and_check>> 」へ進みましょう
 問題が見つかった場合には、これまでの手順を見直してみましょう。
 
