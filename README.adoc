@@ -1,0 +1,11 @@
+= Rubyをインストールする
+
+== 自分の環境にRubyをインストールする
+
+* link:windoww.adoc[Windows]
+* link:macos.adoc[macOS]
+* link:linux.adoc[Linux(Ubuntu)]
+
+== 動作を確認する
+
+
